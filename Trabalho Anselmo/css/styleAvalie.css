@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../img/colosso.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.review-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.review-box h2 {
+    margin: 0 0 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.review-box textarea {
+    width: calc(100% - 20px);
+    height: 80px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.review-box button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.review-box button:hover {
+    background-color: #0056b3;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-button:hover {
+    background-color: white;
+    color: #007BFF;
+}
